@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    background-color:burlywood;
+    background-image: url(https://th.bing.com/th/id/R.241b92645c4be717d1c38ddc2a9afad0?rik=c5FPEOituLxIWg&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fparty-silhouette%2fparty-silhouette-2.png&ehk=7FfsX45W7i0qgjb%2boafwVMSRL%2f1n7%2bMozQJZYyNCDRw%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+header{
+    color:floralwhite;
+    padding: 5%;
+    margin-bottom: 8%;
+    font-size: 5em;
+    text-shadow:3px 0 gray;
+}
+#content{
+    display: grid;
+    max-width: 100%;
+    margin: 0 15% 0 15%;
+    gap:0 20px;
+    grid-template-columns:repeat(7,1fr);
+    grid-template-rows: minmax(100px,auto);
+}
+button{
+    font-size: 6em;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    text-shadow:3px 0 palevioletred;
+    border:5px 0 peachpuff;
+    display:inline-block;
+
+}
+.one{
+    grid-column: 1/2;
+}
+.two{
+    grid-column: 2/3;
+}
+.three{
+    grid-column:3/4;
+}
+.four{
+    grid-column:4/5;
+}
+.five{
+    grid-column:5/6;
+}
+.six{
+    grid-column:6/7;
+}
+.seven{
+    grid-column:7/8;
+}
+.animation{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
